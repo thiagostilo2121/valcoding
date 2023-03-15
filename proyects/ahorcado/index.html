@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Python Proyects [ESPAÑOL]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script async src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class= 'container'>
+    <div class="container_content">
+    <div class="container_content_inner">
+    <div class="aaa" id="div-one">
+        <h1 id="h1-header">AHORCADO</h1> 
+        <div id="code">
+            <pre>
+                <code id="code-s">
+function copyCode() {
+    const code = document.querySelector("code");
+    navigator.clipboard.writeText(code.textContent)
+       .then(() => alert("OK!"))
+       .catch(() => alert("NO!"))
+}                 
+                </code>
+            </pre>
+            <button id="z">
+                 <a class="button" id="back" href="../../home.html">Volver</a>
+            </button>
+            <button onclick="copyCode()" id="copy-btn">Copiar codigo</button>
+        </div>
+    </div>
+    <div class="container_outer_img">
+    <div class="img-inner">
+    <div class="overlay"></div>
+</body>
+</html>
